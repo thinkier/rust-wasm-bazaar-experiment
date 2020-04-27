@@ -1,0 +1,38 @@
+html {
+    background: #242322 url("assets/bazaar_alley.webp") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    color: #ced5d5;
+}
+
+#root {
+    width: 100%;
+    padding: 1%;
+}
+
+#breadcrumbs {
+}
+
+@keyframes box-hover {
+    0% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 0 0 5px 2px rgba(87, 59, 35, 0.75);
+    }
+}
+
+.hover-box {
+    background-color: rgba(31, 31, 31, 0.69);
+    backdrop-filter: blur(5px);
+    border-radius: 1px;
+    padding: 1em;
+}
+
+.hover-box:hover {
+    animation-name: box-hover;
+    animation-duration: 2.2s;
+    box-shadow: 0 0 5px 2px rgba(87, 59, 35, 0.75);
+}

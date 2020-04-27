@@ -1,0 +1,23 @@
+{
+  "width": "$width",
+  "height": "$height",
+  "priceScale": {
+    "scaleMargins": {
+      "top": 0.3,
+      "bottom": 0.25
+    },
+    "borderVisible": false
+  },
+  "layout": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "textColor": "#eef"
+  },
+  "grid": {
+    "vertLines": {
+      "color": "rgba(42, 46, 57, 0)"
+    },
+    "horzLines": {
+      "color": "rgba(42, 46, 57, 0.6)"
+    }
+  }
+}
